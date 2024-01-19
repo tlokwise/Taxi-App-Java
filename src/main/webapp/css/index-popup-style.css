@@ -1,0 +1,28 @@
+.popup {
+    height: 180px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: -50%;
+    transform: translate(-20px, -40%); /*minus padding-left of parent container*/
+    z-index: 2;
+    padding: 10px;
+    display: none;
+    transition:cubic-bezier(1, 0, 0, 1)
+}
+.popup h2 {
+    text-align: center;
+}
+.popup p{
+
+
+}
+.popup table tr td{
+    padding-left: 15px;
+}
+
+.refactor-btn {
+	border: none;
+	background-color: skyblue;
+	color: white;
+}
